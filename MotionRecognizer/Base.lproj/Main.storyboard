@@ -16,44 +16,12 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IoU-ZL-AUD">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2d-Xl-jdQ">
-                                        <rect key="frame" x="47" y="239" width="240" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IoU-ZL-AUD" secondAttribute="trailing" id="37g-Mz-WYf"/>
-                            <constraint firstItem="IoU-ZL-AUD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9KS-lA-hNa"/>
-                            <constraint firstItem="IoU-ZL-AUD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YHe-du-vbu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IoU-ZL-AUD" secondAttribute="bottom" id="heG-Sz-fdd"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="4nY-3T-B80" appends="YES" id="cgW-lK-axg"/>
-                        </connections>
                     </view>
-                    <connections>
-                        <outlet property="cameraView" destination="IoU-ZL-AUD" id="PN3-kR-GIp"/>
-                        <outlet property="highlightView" destination="a2d-Xl-jdQ" id="EuX-PW-NVP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="4nY-3T-B80">
-                    <connections>
-                        <action selector="userTapped:" destination="BYZ-38-t0r" id="MgR-Iv-Zi7"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
